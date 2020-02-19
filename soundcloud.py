@@ -16,7 +16,7 @@ class Soundcloud_w():
     def __init__(self):
         # Create a headless browser
         opts = Options()
-        opts.set_headless()     
+        #opts.set_headless()     
         self.browser = Chrome(options=opts)
         self.browser.get(SOUNDCLOUD_LIKES)
 
